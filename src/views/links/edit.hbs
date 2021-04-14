@@ -1,0 +1,32 @@
+<div class="container p-4">
+    <div class="row">
+        <div class="col-md-4 mx-auto">
+            <div class="card bg-dark">
+                <div class="card-header">
+                    <h4 class="text-center text-white">Add link</h4>
+                </div>
+                <div class="card-body">
+                    <form action="/links/edit/{{link.id}}" method="POST">
+                        <div class="form-group">
+                            <input type="text" class="form-control border-0" name="title" required autofocus
+                                placeholder="Title" value="{{link.title}}">
+                        </div>
+                        <div class="form-group pt-3">
+                            <input type="url" class="form-control border-0" name="url" required placeholder="Url"
+                                value="{{link.url}}">
+                        </div>
+                        <div class="form-group pt-3">
+                            <textarea type="text" rows="2" class="form-control border-0" required name="description"
+                                placeholder="Description">{{link.description}}</textarea>
+                        </div>
+                        <div class="form-group pt-3">
+                            <button class="btn btn-secondary form-control">
+                                Save
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
