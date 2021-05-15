@@ -2,7 +2,7 @@
 
 npm install
 
-run mysql script mysql
+run mysql script 
 
 change database connection credentials with yours
 
