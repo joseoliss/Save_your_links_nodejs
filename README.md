@@ -1,9 +1,9 @@
 # Save_your_links_nodejs
 
-First install dependencies: npm install
+npm install
 
-second, use the database script to create the database in mysql
+run mysql script mysql
 
-third, change the database connection credentials with yours
+change database connection credentials with yours
 
-finally run the project: npm start
+npm start
